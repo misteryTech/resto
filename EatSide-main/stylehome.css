@@ -1,0 +1,648 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+
+
+
+::-webkit-scrollbar {
+	width: 20px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f5f5dc;
+	background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
+}
+
+::-webkit-scrollbar-thumb {
+	background: #800020;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #000;
+}
+
+.ewan {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	font-family: "Josefin Slab", serif;
+}
+
+.background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("https://picsum.photos/id/112/3840/2160");
+	background-size: cover;
+	background-position: center top;
+	z-index: -1;
+	filter: blur(10px);
+}
+
+.woolf {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("Default_A_handsome_male_chef_0_875a0d22-37e2-48d2-857c-f2380d6a2dcf_0.png");
+	background-position: bottom left;
+	background-size: 450px;
+	background-repeat: no-repeat;
+	z-index: 0;
+	mix-blend-mode: hard-light;
+	opacity: 0.8;
+}
+
+.content-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	filter: drop-shadow(5px 5px 25px black);
+}
+
+.content {
+	position: relative;
+	top: 10px;
+	background: url("https://i.imgur.com/0kjMcUe.png");
+	background-size: 1000px;
+	background-position: center right;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	width: 50%;
+	height: auto;
+	padding: 30px 80px 50px 80px;
+	z-index: 1;
+	filter: brightness(0.95) sepia(30%) saturate(80%);
+	border-radius: 30px;
+	height: 90vh;
+	clip-path: polygon(
+		0% 0%,
+		0% 93%,
+		5% 98%,
+		6% 99%,
+		8% 95%,
+		12% 94%,
+		15% 97%,
+		17% 93%,
+		20% 98%,
+		22% 97%,
+		25% 99%,
+		31% 94%,
+		35% 93%,
+		39% 96%,
+		43% 93%,
+		45% 94%,
+		47% 95%,
+		50% 92%,
+		52% 96%,
+		54% 93%,
+		58% 92%,
+		60% 95%,
+		62% 93%,
+		65% 96%,
+		69% 93%,
+		72% 93%,
+		75% 94%,
+		79% 97%,
+		81% 94%,
+		85% 93%,
+		88% 92%,
+		90% 95%,
+		93% 93%,
+		95% 92%,
+		97% 95%,
+		100% 97%,
+		100% 0%
+	);
+	overflow: auto;
+}
+
+@media screen and (max-width: 1650px) {
+	.content {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 1500px) {
+	.content {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 868px) {
+	.content {
+		padding: 30px 60px 50px 60px;
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.content {
+		padding: 30px 30px 50px 30px;
+		width: 80%;
+	}
+}
+
+.et {
+	font-family: 'Sassy Frass', cursive;
+	font-size: 200pt;
+	margin: 0;
+	font-weight: 1;
+	color: #26231e;
+	mix-blend-mode: color-burn;
+}
+
+@media screen and (max-width: 1071px) {
+	.et {
+		font-size: 60pt;
+	}
+}
+
+@media screen and (max-width: 756px) {
+	.et {
+		font-size: 46pt;
+		line-height: 46pt;
+		padding: 20px 0px;
+	}
+
+  .woolf {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url();
+    background-position: bottom left;
+    background-size: 450px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    mix-blend-mode: hard-light;
+    opacity: 0.8;
+  }
+}
+
+@media screen and (max-width: 370px) {
+	.et {
+		font-size: 65pt;
+	}
+}
+
+hr {
+	width: 80%;
+	opacity: 0.7;
+	margin-top: 20px;
+	margin-bottom: -60px;
+	border-radius: 50px;
+	padding: 40px;
+}
+
+.slog {
+	letter-spacing: 2px;
+	font-size: 20pt;
+	font-weight: 300;
+	font-style: "Josefin Slab", serif;
+	color: #35312b;
+	margin-bottom: 40px;
+	text-shadow: 0.6px 0.6px 1px Sienna;
+}
+
+@media screen and (max-width: 700px) {
+	.slog {
+		margin-bottom: 70px;
+	}
+}
+
+.laman {
+	font-size: 16pt;
+	font-weight: 400;
+	line-height: 28pt;
+	color: #565046;
+	letter-spacing: 0.5px;
+	word-spacing: 3px;
+	text-shadow: 0.2px 0.2px 1.3px Sienna;
+}
+
+.laman:first-of-type {
+	align-self: flex-start;
+	font-weight: 600;
+	position: relative;
+}
+
+.laman span {
+  font-family: 'Sassy Frass', cursive;
+	font-size: 600%;
+	font-weight: 1;
+	opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+	.laman {
+		font-size: 14pt;
+	}
+}
+
+
+/* Set the font family for the entire body */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+    /* Add hover animation on navbar items */
+    .navbar-inverse .navbar-nav > li > a:hover,
+    .navbar-inverse .navbar-nav > li > a:focus {
+      background-color: #f5f5dc !important;
+      color: #000 !important;
+    }
+
+   /* Add hover animation on navbar submenu items */
+   .navbar-inverse .navbar-nav > li > .dropdown-menu li > a:hover,
+   .navbar-inverse .navbar-nav > li > .dropdown-menu li > a:focus {
+     background-color: #800020 !important;
+     color: #ffffff !important;
+   }
+
+  /* <!-- Fade content bs-carousel with hero headers --> */
+
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+  position: relative;
+  height: 100vh;
+}
+.fade-carousel .carousel-inner .item {
+  height: 100vh;
+}
+.fade-carousel .carousel-indicators > li {
+  margin: 0 2px;
+  background-color: #f39c12;
+  border-color: #f39c12;
+  opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+width: 10px;
+height: 10px;
+opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+       -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+         -o-transform: translate3d(-50%,-50%,0);
+            transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+  font-size: 6em;    
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+  opacity: 0;
+  -webkit-transition: 2s all ease-in-out .1s;
+     -moz-transition: 2s all ease-in-out .1s; 
+      -ms-transition: 2s all ease-in-out .1s; 
+       -o-transition: 2s all ease-in-out .1s; 
+          transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+  opacity: 1;
+  -webkit-transition: 2s all ease-in-out .1s;
+     -moz-transition: 2s all ease-in-out .1s; 
+      -ms-transition: 2s all ease-in-out .1s; 
+       -o-transition: 2s all ease-in-out .1s; 
+          transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: #080d15;
+  opacity: .7;
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+  color: #f5f5f5;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  outline: none;
+  margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+height: 100vh;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+background-image: url(https://ununsplash.imgix.net/photo-1416339134316-0e91dc9ded92?q=75&fm=jpg&s=883a422e10fc4149893984019f63c818); 
+}
+.fade-carousel .slides .slide-2 {
+background-image: url(https://ununsplash.imgix.net/photo-1416339684178-3a239570f315?q=75&fm=jpg&s=c39d9a3bf66d6566b9608a9f1f3765af);
+}
+.fade-carousel .slides .slide-3 {
+background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327);
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+  .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+  .hero h1 { font-size: 4em; }    
+}
+
+/* Adjust the width of the mega dropdown menu */
+.mega-dropdown-menu {
+  width: 800px;
+}
+
+/* Style the list items within the mega dropdown menu */
+.mega-dropdown-menu > li {
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+}
+
+/* Remove default styling for nested unordered lists within the mega dropdown menu */
+.mega-dropdown-menu > li ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Adjust the padding of the nested list items within the mega dropdown menu */
+.mega-dropdown-menu > li ul li {
+  padding: 5px 0;
+}
+
+/* Style the navbar */
+.navbar {
+  height: 80px;
+}
+
+/* Style the navbar header */
+.navbar-header {
+  height: 80px;
+}
+
+/* Style the navbar brand */
+.navbar-brand {
+  padding: 15px 15px;
+  height: 80px;
+}
+
+/* Style the navbar toggle button */
+.navbar-toggle {
+  margin-top: 30px;
+}
+
+/* Adjust the margin for the navbar navigation */
+.navbar-nav {
+  margin-top: 20px;
+}
+
+/* Adjust the margin for the navbar navigation on the right */
+.navbar-right {
+  margin-top: 15px;
+}
+
+/* Set the background color and border color for the inverse navbar */
+.navbar-inverse {
+  background-color: #800020;
+  border-color: #800020;
+}
+
+/* Set the color for the navbar brand and navigation links in the inverse navbar */
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+/* Set the hover color for the navbar brand and navigation links in the inverse navbar */
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #ffffff;
+}
+
+/* Set the border color for the navbar toggle button in the inverse navbar */
+.navbar-inverse .navbar-toggle {
+  border-color: #ffffff;
+}
+
+/* Set the background color for the navbar toggle button on hover and focus in the inverse navbar */
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+
+/* Set the background color for the dropdown menu */
+.dropdown-menu {
+  background-color: #f5f5dc;
+}
+
+/* Set the color for the dropdown menu links */
+.dropdown-menu > li > a {
+  color: black; /* Change submenu item color to black */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Set the hover background color and color for the dropdown menu links */
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-color: #800020;
+  color: #ffffff;
+}
+
+/* Style the form control inputs */
+.form-control {
+  background-color: #ffffff;
+  border-color: #800020;
+  color: #800020;
+}
+
+/* Style the form control inputs on focus */
+.form-control:focus {
+  background-color: #ffffff;
+  border-color: #800020;
+  color: #800020;
+}
+
+/* Style the default button */
+.btn-default {
+  background-color: #800020;
+  border-color: #800020;
+  color: #ffffff;
+}
+
+/* Style the default button on hover and focus */
+.btn-default:hover,
+.btn-default:focus {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #800020;
+}
+
+/* Increase the font size and weight for the menu headings in the mega dropdown menu */
+.mega-dropdown-menu > li ul li.dropdown-header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Style the shopping cart icon in the navbar */
+.navbar-nav > li > a .glyphicon-shopping-cart {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+/* Style the badge count for the shopping cart icon */
+.navbar-nav > li > a .badge {
+  background-color: #ff0000;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 50%;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: -8px;
+}
+
+/* Adjust the margin for the cart icon in the navbar */
+.navbar-nav > .cart-icon {
+  margin-right: 15px;
+}
+
+/* Position the notification badge within the cart icon */
+.cart-icon a {
+  position: relative;
+}
+
+/* Style the notification badge within the cart icon */
+.cart-icon .notification {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+
+/* Custom styles for mobile-friendly layout */
+@media (max-width: 768px) {
+  /* Adjust the navbar height for mobile devices */
+  .navbar {
+    height: auto;
+    min-height: 0;
+  }
+
+  /* Adjust the height of the navbar brand logo for mobile devices */
+  .navbar-brand img {
+    height: 50px;
+  }
+
+  /* Adjust the margin for the navbar toggle button on mobile devices */
+  .navbar-toggle {
+    margin-top: 5px;
+    margin-top: 20px;
+  }
+
+  /* Adjust the margin for the navbar navigation on mobile devices */
+  .navbar-nav {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  /* Adjust the margin for the navbar navigation links on mobile devices */
+  .navbar-nav > li {
+    margin-top: 5px;
+  }
+
+  /* Adjust the styles for the navbar form on mobile devices */
+  .navbar-form {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  /* Center align the navbar header text on mobile devices */
+  .navbar-header.text-center {
+    text-align: center;
+  }
+
+  /* Set the background color for the navbar collapse menu on mobile devices */
+  .navbar-inverse .navbar-collapse {
+    background-color: #800020;
+  }
+
+  /* Set the background color for the dropdown menu within the navbar collapse on mobile devices */
+  .navbar-inverse .navbar-collapse .dropdown-menu {
+    background-color: #f5f5dc;
+  }
+
+  /* Adjust the margin for the navbar navigation links on mobile devices */
+  .navbar-nav > li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust the margin for the cart icon in the navbar on mobile devices */
+  .navbar-nav > .cart-icon {
+    margin-right: 5px;
+  }
+
+  /* Center align the navbar header text and add margin-bottom on mobile devices */
+  .navbar-header.text-center {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}

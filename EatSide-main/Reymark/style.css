@@ -1,0 +1,229 @@
+
+
+*{
+    font-family:'Poppins', sans-serif ;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.wrapper{
+    background-image: url('1.jpg');
+    padding: 0 20px 0 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.row{
+    width: 900px;
+    height: 550px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.text{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.text p{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+
+i{
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.input-box{
+    width: 330px;
+    box-sizing: border-box;
+
+}
+
+.input-box header{
+    font-weight:800 ;
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: 40px;
+    font-family: david libre;
+    text-transform: uppercase;
+
+
+}
+
+.input-box header .word2{
+    color: #CC1B10;
+    font-family: david libre;
+    text-transform: uppercase;
+
+}
+
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 10px 0 10px;
+    font-family: david libre;
+    font-size: 20px;
+    color: #CC1B10;
+    margin-bottom: 10px;
+
+}
+
+.input{
+    height: 45px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0,0, 0,0.2);
+    outline: none;
+    margin-bottom: 20px;
+    color: #CC1B10;  
+}
+
+.input-box .input-field label{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-field .input:focus ~ label{
+    top: -10px;
+    font-size: 13px;
+
+}
+
+.input-field .input:valid ~ label{
+    top: -10px;
+    font-size: 13px;
+    color: #5d5076;
+}
+
+
+
+
+.side-image{
+    background-image: url('burger6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+}
+
+img{
+    width: 150px;
+    position: absolute;
+    top:30px;
+    left: 30px;
+ 
+
+
+}
+
+.submit{
+    border: none;
+    outline: none;
+    height: 45px;
+    background-color: #ececec;
+ 
+    transition: .4s;
+     text-transform: uppercase;
+     border-radius: 50px;
+
+}
+
+.submit:hover{
+    background: #CC1B10;
+    color: #fff;
+
+}
+
+.signin{
+    text-align: center;
+    font-size: small;
+    margin-top: 25px;
+
+}
+
+.sign a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+    transition: .5s;
+}
+
+
+span a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+/* CSS for ordercart */
+
+@media only screen and (max-width: 768px){   
+    .side-image{
+        border-radius: 10px 10px  0;
+
+    }
+
+        img{
+            width: 100px;
+            position: absolute;
+            top: 10px;
+          
+        }
+        .text{
+            position: absolute;
+            top: 70%;
+            text-align: center;
+
+        }
+
+        .text p,i{
+            font-size: 17px;
+
+
+        }
+        .row{
+            max-width: 420px;
+            width: 100%;
+        }
+
+}
+
+
